@@ -1,0 +1,13 @@
+[package]
+name = "line_counter"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokei = "12.1.2"
+
+[[bin]]
+name ="sample"
+path = "C:/Users/tatsu/Desktop/programing/rust_app/line_counter/src/bin/sample.rs"
